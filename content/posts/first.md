@@ -47,3 +47,4 @@ J'utilise git flow
 
 Ha merde, j'ai pas configuré netlify, on va aller lire la [doc](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
 J'ajoute dans build command `hugo`, ca parait louche ... Et comme je suis un dingue, je push directe sur master !
+J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour netlify, pour l'aider à compiler.
