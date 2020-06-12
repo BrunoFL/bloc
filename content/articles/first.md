@@ -87,11 +87,44 @@ J'en profite pour mettre à jour le [à propos]({{< ref "/me.md" >}}) et découv
 Bon, je ne comprends pas tout, mais je ne cherche pas vraiment non plus à maitriser.
 Mais je sens que c'est hyper puissant !
 
-## Un peu de config chez netlify !
+## Un peu de config chez Netlify !
 
 Bien, j'ai fait le tour rapide des fonctionnalités ! Maintenant je vais tester des choses du côté de l'hebergement !
 
-## Points positifs et négatifs 
+Pour commencer, Netlify mets 39 secondes pour faire une installation propre complete. Avec un temps de build dérisoire !
+
+```
+11:57:50 PM: Total in 123 ms
+11:57:50 PM: ​
+11:57:50 PM: (build.command completed in 210ms)
+11:57:50 PM: ​
+11:57:50 PM: ┌─────────────────────────────┐
+11:57:50 PM: │   Netlify Build Complete    │
+11:57:50 PM: └─────────────────────────────┘
+11:57:50 PM: ​
+11:57:50 PM: (Netlify Build completed in 316ms)
+11:57:50 PM: Caching artifacts
+...
+11:57:55 PM: Build script success
+11:57:55 PM: Starting to deploy site from 'public'
+11:57:55 PM: Creating deploy tree 
+11:57:55 PM: Creating deploy upload records
+11:57:55 PM: 20 new files to upload
+11:57:55 PM: 0 new functions to upload
+11:57:55 PM: Starting post processing
+11:57:57 PM: Post processing done
+11:57:57 PM: Site is live
+11:58:15 PM: Finished processing build request in 38.998450283s
+```
+
+Ensuite, Google donne une super note !
+
+{{< figure src="/images/2.png" alt="capture du resultat de rapidité" caption="Super résultat !" >}}
+
+Netlify propose une option ***Asset optimization***, mais ça ne m'a pas l'air utile, le CSS et le JS étant minifié.
+Je teste la compression des images.
+
+## Points positifs et négatifs
 
 -
 
