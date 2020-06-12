@@ -122,7 +122,10 @@ Ensuite, Google donne une super note !
 {{< figure src="/images/2.png" alt="capture du resultat de rapidité" caption="Super résultat !" >}}
 
 Netlify propose une option ***Asset optimization***, mais ça ne m'a pas l'air utile, le CSS et le JS étant minifié.
-Je teste la compression des images.
+Je teste la compression des images. Sans résultat, ... on va désactiver dans le doute.
+Et de toute façon il faudra que les images soient traitées autrement.
+
+Je vois qu'il y a pleins de plugins ! C'est top ! Mais j'ai l'impression que Hugo, fait déjà beaucoup de choses.
 
 ## Points positifs et négatifs
 
