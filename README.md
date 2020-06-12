@@ -8,7 +8,3 @@ git submodule update --rebase --remote
 ## emojis
 
 https://www.webfx.com/tools/emoji-cheat-sheet/
-
-## youtube, tweeter, instagram, figures, ...
-
-https://gohugo.io/content-management/shortcodes/

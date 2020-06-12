@@ -1,12 +1,12 @@
 baseURL = "https://brunotech.netlify.app"
 languageCode = "fr-fr"
 defaultContentLanguage = "fr"
-title = "Bruno Tech'"
+title = "Mon blog"
 theme = "hermit"
-enableGitInfo = true
+# enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -23,11 +23,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
+  # Categories are disabled by default.
 
 [params]
   dateform        = "2 Jan 2006"
-  dateformShort   = "2 January"
+  dateformShort   = "2 Jan"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
@@ -36,11 +36,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#222"
 
-  homeSubtitle = "Mon petit blog où je raconte des trucs"
+  homeSubtitle = "Mon blog technique"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/BrunoFL/blog/commit/"
+  gitUrl = "https://github.com/BrunoFL/blog"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
@@ -56,7 +56,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/BrunoEiffel"
+    url = "https://twitter.com/"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
@@ -65,11 +69,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "Articles"
-    url = "articles/"
+    name = "Posts"
+    url = "posts/"
     weight = 10
 
   [[menu.main]]
-    name = "Moi"
-    url = "me/"
+    name = "A propos"
+    url = "about/"
     weight = 20
