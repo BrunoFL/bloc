@@ -42,5 +42,8 @@ Et comme ca j'ai toujours une branche propre du site.
 
 Je remarque qu'on peut faire du test A/B directement sur des branches cool !
 
-Bon c'est partit pour un premier build. Donc un commit-push et un merge sur master.
+Bon c'est partit pour un premier build. Donc un commit push et un merge sur master.
 J'utilise git flow 
+
+Ha merde, j'ai pas configuré netlify, on va aller lire la [doc](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
+J'ajoute dans build command `hugo`, ca parait louche ... Et comme je suis un dingue, je push directe sur master !
