@@ -1,20 +1,22 @@
 ---
-title: "Mon premier blog Jamstack"
+title: "Mon premier blog Jamstack avec Hugo !"
 date: 2020-06-12T19:16:33+02:00
+lastmod: 2020-06-12T22:37:30+02:00
 draft: false
-tags: 
-  - hugo
-  - Jamstack
+tags: ["Hugo", "Jamstack", "test"]
+categories: ["Hugo"]
 toc: true
+description: "Mon aventure avec Hugo et la Jamstack"
 ---
 
 Bienvenue !
 Oui, bienvenue sur ce blog, je vais essayer de vous partager 
 au mieux la création d'un blog, orienté technique grace à la Jamstack.
-Cet article est construit au fur et à mesure que je découvre la solution.
+
+**Cet article est construit au fur et à mesure que je découvre la solution.**
 En gros, toi lecteur, tu es en avance sur moi. Et donc si tu lis ceci, c'est que j'ai réussi !
 
-# C'est quoi la Jamstack ?
+## C'est quoi la Jamstack ?
 
 Et bien, j'en ai entendu un petit peu par ci par là, en lisant quelques blogs ou articles.
 Donc ce mot m'est arrivé aux oreilles. J'ai donc fait ce que tout bon dev fait, j'ai cherché sur le net
@@ -26,7 +28,7 @@ en français s'il vous plait ! Où ils expliquent tout plein de choses intéress
 Et en gros tu ecrit ton article en MD (coool :joy:), c'est compilé par une CI et diffusé !
 Pas de soucis de sécu, de deploiement, de dev ... Le pied !
 
-# Le commencent
+## Le commencent
 
 - J'ai créé un compte sur [netlify](https://www.netlify.com/), pour eux ? Tout simplement car ca avait l'air facile (et gratuit) !
 - Une connexion avec github, le choix du dépot, merde, pas de dépot ...
@@ -37,9 +39,9 @@ Pas de soucis de sécu, de deploiement, de dev ... Le pied !
 - Je copie colle depuis l'exemple et je modifie la config
 - Je crée ce fichier, je lance le serveur dev et **z'est parti !!!**
 
-![img](https://media.giphy.com/media/4Nldony0MG8Ss/giphy.gif)
+{{< figure src="https://media.giphy.com/media/4Nldony0MG8Ss/giphy.gif" alt="montagne russe" caption="Youhouuuu !!!" >}}
 
-# Le déploiement
+## Le déploiement
 
 J'ai dit à netlify de construire le site que sur un push sur master, ça évite de build à chaque changement et economise des crédits.
 En plus, le serveur de dev est très pratique !
@@ -55,7 +57,9 @@ J'ajoute dans ***build command*** `hugo`, ça parait louche ... Et comme je suis
 
 Évidement, ça ne suffit pas. J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour netlify, pour l'aider à compiler.
 
-Et ça marche !!! Enfin presque, il manque le css ...
+Et ça marche !!!
+
+{{< figure src="/images/1.png" alt="page sans css" caption="il manque un truc ..." >}}
 
 Bon y a pas le thème, alors qu'il est disponible avec le serveur de dev ...
 Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai un (très) vague idée de ce que ça veut dire.
@@ -63,10 +67,34 @@ J'édite le ***base url*** dans la config, en définissant un nom "https://bruno
 
 Et je commit !
 
-![img](https://media.giphy.com/media/iJgoGwkqb1mmH1mES3/giphy.gif)
+{{< figure src="https://media.giphy.com/media/iJgoGwkqb1mmH1mES3/giphy.gif" alt="animal heureux" caption="il manque un truc ..." >}}
 
 Yeah ! Je m'amuse à ajouter quelques images. Je mets des liens directs, mais il y a moyen de faire [mieux](https://docs.netlify.com/large-media/overview/#large-media-docs) mais flemme pour l'instant.
 
 Je commence à corriger des fautes, j'ai écrit comme un sagouin !
 
-J'en profite pour mettre à jour le "à propos" et découvrir un peu plus Hugo.
+J'en profite pour mettre à jour le [à propos]({{< ref "/me.md" >}}) et découvrir un peu plus Hugo.
+
+- Les liens internes
+- Les figures
+- Le front matter
+- Les sections
+- Les tags et catégories
+- Les commentaires
+- Le support multilingue
+- La recherche
+
+Bon, je ne comprends pas tout, mais je ne cherche pas vraiment non plus à maitriser.
+Mais je sens que c'est hyper puissant !
+
+## Un peu de config chez netlify !
+
+Bien, j'ai fait le tour rapide des fonctionnalités ! Maintenant je vais tester des choses du côté de l'hebergement !
+
+## Points positifs et négatifs 
+
+-
+
+## Résumé
+
+Résumons cette experience !
