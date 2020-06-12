@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://brunotech.netlify.app"
 languageCode = "fr-fr"
 defaultContentLanguage = "fr"
 title = "Mon blog"

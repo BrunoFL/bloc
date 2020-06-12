@@ -47,4 +47,14 @@ J'utilise git flow
 
 Ha merde, j'ai pas configuré netlify, on va aller lire la [doc](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
 J'ajoute dans build command `hugo`, ca parait louche ... Et comme je suis un dingue, je push directe sur master !
-J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour netlify, pour l'aider à compiler.
+
+Bon, ca a pas marché. J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour netlify, pour l'aider à compiler.
+
+Et ca marche !!! Enfin presque, il manque le css ...
+
+
+Bon y a pas le theme, alors qu'il est dispo avec le serveur de dev ...
+Y a des erreurs de cross-origin et comme la plupart des gens j'ai un (tres) vague idée de ce que ca veut dire.
+J'edite la base url, en definissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est un essai !
+
+Et je rebuild !
