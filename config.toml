@@ -17,7 +17,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   name = "Bruno FL"
 
 [blackfriday]
-  # hrefTargetBlank = true
+  hrefTargetBlank = true
   # noreferrerLinks = true
   # nofollowLinks = true
 
@@ -34,7 +34,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#222"
 
   homeSubtitle = "Mon blog technique"
   # bgImg = ""  # Homepage background-image URL

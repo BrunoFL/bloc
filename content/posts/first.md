@@ -2,10 +2,10 @@
 title: "Mon premier blog Jamstack"
 date: 2020-06-12T19:16:33+02:00
 draft: false
-featuredImg: ""
 tags: 
   - hugo
   - Jamstack
+toc: true
 ---
 
 Bienvenue !
@@ -18,7 +18,7 @@ En gros, toi lecteur, tu es en avance sur moi. Et donc si tu lis ceci, c'est que
 
 Et bien, j'en ai lu un peu par ci par la, je lis un quelques blogs et je fais de la veille.
 Donc ce mot m'est arrivé aux oreilles. J'ai donc ce que tout bon dev fait, j'ai cherché sur le net
-(tu as vu pas de marque placée :joy:). Je suis donc tombé sur ce site [link] https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/,
+(tu as vu pas de marque placée :joy:). Je suis donc tombé sur ce [site](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/),
 en francais s'il vous plait !
 
 Et en gros tu ecrit ton article en MD (coool :joy:), c'est compilé par une CI et diffusé !
@@ -34,6 +34,8 @@ Pas de soucis de sécu, de deploiement, de dev ... Le pied !
 - [Installation du theme](https://github.com/Track3/hermit), la doc est hyper bien faite !
 - Je copie colle depuis l'exemple, je modifie la config
 - Je crée ce fichier, je lance le serveur dev et **z'est parti !!!**
+
+![img](https://media.giphy.com/media/4Nldony0MG8Ss/giphy.gif)
 
 # Le deploiement
 
@@ -52,9 +54,12 @@ Bon, ca a pas marché. J'ai ajouté un [fichier de config](https://gohugo.io/hos
 
 Et ca marche !!! Enfin presque, il manque le css ...
 
-
 Bon y a pas le theme, alors qu'il est dispo avec le serveur de dev ...
 Y a des erreurs de cross-origin et comme la plupart des gens j'ai un (tres) vague idée de ce que ca veut dire.
 J'edite la base url, en definissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est un essai !
 
 Et je rebuild !
+
+![img](https://media.giphy.com/media/iJgoGwkqb1mmH1mES3/giphy.gif)
+
+Ca fonctionne ! Je m'amuse à ajouter quelques images. Je mets des liens directs, mais il y a moyen de faire ca [mieux](https://docs.netlify.com/large-media/overview/#large-media-docs).
