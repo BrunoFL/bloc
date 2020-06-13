@@ -8,9 +8,9 @@ pygmentsCodefences  = true
 pygmentsUseClasses  = true
 
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "MIT" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-169315981-1"
 # disqusShortname = "yourdiscussshortname"
 
 [author]
@@ -34,9 +34,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#222"
+  themeColor = "#494f5c"
 
   homeSubtitle = "Mon petit blog où je raconte des trucs"
+  footerCopyright = ' &#183; <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -67,9 +68,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   [[menu.main]]
     name = "Articles"
     url = "articles/"
-    weight = 10
+    weight = 1
 
   [[menu.main]]
     name = "Moi"
     url = "me/"
-    weight = 20
+    weight = 2

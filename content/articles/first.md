@@ -1,10 +1,16 @@
 ---
 title: "Mon premier blog Jamstack avec Hugo !"
-date: 2020-06-12T19:16:33+02:00
-lastmod: 2020-06-12T22:37:30+02:00
+date: 2020-06-12
+lastmod: 2020-06-13
 draft: false
-tags: ["Hugo", "Jamstack", "test"]
-categories: ["Hugo"]
+tags: 
+- Hugo
+- Jamstack
+- test
+keywords: 
+- Hugo
+- Jamstack
+- test
 toc: true
 description: "Mon aventure avec Hugo et la Jamstack"
 ---
@@ -20,12 +26,12 @@ En gros, toi lecteur, tu es en avance sur moi. Et donc si tu lis ceci, c'est que
 
 Et bien, j'en ai entendu un petit peu par-ci par-là, en lisant quelques blogs ou articles.
 Donc ce mot m'est arrivé aux oreilles. J'ai donc fait ce que tout bon dev fait, j'ai cherché sur le net
-(tu as vu, je n'ai pas cité de marque :joy:). Je suis donc tombé sur ce [site](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/),
+(tu as vu, je n'ai pas cité de marque :wink:). Je suis donc tombé sur ce [site](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/),
 en français s'il vous plait ! Où ils expliquent tout plein de choses intéressantes !
 
 **Y a plus qu'à tester !**
 
-Et en gros, tu écris ton article en MD (coool :joy:), c'est compilé par une CI et diffusé !
+Et en gros, tu écris ton article en MD (coool :smile:), c'est compilé par une CI et diffusé !
 Pas de soucis de sécu, de deploiement, de dev ... Le pied !
 
 ## Le commencent
@@ -147,11 +153,21 @@ Mais il y a quand même quelques points négatifs
 
 - Quand il y a une erreur de syntaxe, le serveur de dev se coupe.
 - Le traitement des images inconsistant.
-- La modification du thème compliquée.
+- La modification du thème compliquée à première vue.
+- Des fonctionnalités qui disparaissent ??? Les tags ne fonctionnent plus, ni la redirection vers d'autres articles.
+
+Il va falloir passer du temps sur le thème !
 
 ## Résumé
 
 Résumons cette expérience !
 
-C'est vraiment agréable, alors ce n'est pas pour tout le monde, mais c'est parfait pour un blog technique.
-Netlify c'est un bonheur à utiliser, Hugo c'est de la balle !
+C'est vraiment agréable, alors ce n'est pas pour tous les projets, mais c'est parfait pour un blog.
+Je pense que c'est suffisamment accessible pour un néophyte, il peut s'occuper uniquement du contenu une fois mis en place.
+Quand on a l'habitude d'utiliser git et un serveur de dev, on est réellement très efficace.
+Netlify c'est un bonheur à utiliser, il y a de la documentation partout, c'est rapide et efficace.
+Hugo, ça fait largement ce que je lui demande, ça reste globalement simple à utiliser et configurer.
+
+Au final, je pense que la Jamstack et particulièrement Hugo, permet de se concentrer sur le contenu.
+
+Bref, je ne sais pas si ce blog va perdurer, mais merci de m'avoir lu :heart:.
