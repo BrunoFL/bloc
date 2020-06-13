@@ -11,58 +11,58 @@ description: "Mon aventure avec Hugo et la Jamstack"
 
 Bienvenue !
 Oui, bienvenue sur ce blog, je vais essayer de vous partager 
-au mieux la création d'un blog, orienté technique grace à la Jamstack.
+au mieux la création d'un blog, orienté technique grâce à la Jamstack.
 
 **Cet article est construit au fur et à mesure que je découvre la solution.**
 En gros, toi lecteur, tu es en avance sur moi. Et donc si tu lis ceci, c'est que j'ai réussi !
 
 ## C'est quoi la Jamstack ?
 
-Et bien, j'en ai entendu un petit peu par ci par là, en lisant quelques blogs ou articles.
+Et bien, j'en ai entendu un petit peu par-ci par-là, en lisant quelques blogs ou articles.
 Donc ce mot m'est arrivé aux oreilles. J'ai donc fait ce que tout bon dev fait, j'ai cherché sur le net
 (tu as vu, je n'ai pas cité de marque :joy:). Je suis donc tombé sur ce [site](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/),
-en français s'il vous plait ! Où ils expliquent tout plein de choses intéressentes !
+en français s'il vous plait ! Où ils expliquent tout plein de choses intéressantes !
 
-**Y a plus qu'a tester !**
+**Y a plus qu'à tester !**
 
-Et en gros tu ecrit ton article en MD (coool :joy:), c'est compilé par une CI et diffusé !
+Et en gros, tu écris ton article en MD (coool :joy:), c'est compilé par une CI et diffusé !
 Pas de soucis de sécu, de deploiement, de dev ... Le pied !
 
 ## Le commencent
 
-- J'ai créé un compte sur [netlify](https://www.netlify.com/), pour eux ? Tout simplement car ca avait l'air facile (et gratuit) !
-- Une connexion avec github, le choix du dépot, merde, pas de dépot ...
-- Création du dépot, création de la branche develop !
-- Sélection du dépot
-- [Installation de hugo](https://gohugo.io/getting-started/installing/), la doc est hyper bien faite !
-- [Installation du theme](https://github.com/Track3/hermit), la doc est hyper bien faite ! Y a plein d'exemples d'articles !
-- Je copie colle depuis l'exemple et je modifie la config
+- J'ai créé un compte sur [Netlify](https://www.netlify.com/), pour eux ? Tout simplement, car ça avait l'air facile (et gratuit) !
+- Une connexion avec github, le choix du dépôt, merde, pas de dépôt ...
+- Création du dépôt, création de la branche develop !
+- Sélection du dépôt
+- [Installation de Hugo](https://gohugo.io/getting-started/installing/), la doc est hyper bien faite !
+- [Installation du thème](https://github.com/Track3/hermit), la doc est hyper bien faite ! Il y a plein d'exemples d'articles !
+- Je copie-colle depuis l'exemple et je modifie la config
 - Je crée ce fichier, je lance le serveur dev et **z'est parti !!!**
 
 {{< figure src="https://media.giphy.com/media/4Nldony0MG8Ss/giphy.gif" alt="montagne russe" caption="Youhouuuu !!!" >}}
 
 ## Le déploiement
 
-J'ai dit à netlify de construire le site que sur un push sur master, ça évite de build à chaque changement et economise des crédits.
+J'ai dit à Netlify de construire le site que sur un push sur master, ça évite de build à chaque changement et économise des crédits.
 En plus, le serveur de dev est très pratique !
-Comme ça j'ai toujours une branche propre du site.
+Comme ça, j'ai toujours une branche propre du site.
 
 Je remarque qu'on peut faire du test A/B directement sur des branches cool !
 
-Bon c'est partit pour un premier build. Donc un commit push et un merge sur master.
+Bon, c'est parti pour un premier build. Donc un commit push et un merge sur master.
 J'utilise [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html) intégré dans IDEA.
 
-Ha merde, je n'ai pas configuré netlify, on va aller lire la [doc](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
-J'ajoute dans ***build command*** `hugo`, ça parait louche ... Et comme je suis un dingue, je push directe sur master !
+Ha merde, je n'ai pas configuré Netlify, on va aller lire la [doc](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
+J'ajoute dans ***build command*** `Hugo`, ça parait louche ... Et comme je suis un dingue, je push directe sur master !
 
-Évidement, ça ne suffit pas. J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour netlify, pour l'aider à compiler.
+Évidement, ça ne suffit pas. J'ai ajouté un [fichier de config](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) pour Netlify, pour l'aider à compiler.
 
 Et ça marche !!!
 
 {{< figure src="/images/1.png" alt="page sans css" caption="il manque un truc ..." >}}
 
 Bon y a pas le thème, alors qu'il est disponible avec le serveur de dev ...
-Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai un (très) vague idée de ce que ça veut dire.
+Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai une (très) vague idée de ce que ça veut dire.
 J'édite le ***base url*** dans la config, en définissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est un essai !
 
 Et je commit !
@@ -87,11 +87,13 @@ J'en profite pour mettre à jour le [à propos]({{< ref "/me.md" >}}) et découv
 Bon, je ne comprends pas tout, mais je ne cherche pas vraiment non plus à maitriser.
 Mais je sens que c'est hyper puissant !
 
+Pareil, y a beaucoup de thèmes, j'en ai testé quelques-uns Hermit, Fuji, hello-friend, Dimension, Coder, il y a vraiment beaucoup de variété.
+
 ## Un peu de config chez Netlify !
 
-Bien, j'ai fait le tour rapide des fonctionnalités ! Maintenant je vais tester des choses du côté de l'hebergement !
+Bien, j'ai fait le tour rapide des fonctionnalités ! Maintenant, je vais tester des choses du côté de l'hébergement !
 
-Pour commencer, Netlify mets 39 secondes pour faire une installation propre complete. Avec un temps de build dérisoire !
+Pour commencer, Netlify met 39 secondes pour faire une installation propre complète. Avec un temps de build dérisoire !
 
 ```
 11:57:50 PM: Total in 123 ms
@@ -119,18 +121,37 @@ Pour commencer, Netlify mets 39 secondes pour faire une installation propre comp
 
 Ensuite, Google donne une super note !
 
-{{< figure src="/images/2.png" alt="capture du resultat de rapidité" caption="Super résultat !" >}}
+{{< figure src="/images/2.png" alt="Capture du résultat de rapidité" caption="Super résultat !" class="big" >}}
+
+La version mobile est vraiment bien !
 
 Netlify propose une option ***Asset optimization***, mais ça ne m'a pas l'air utile, le CSS et le JS étant minifié.
-Je teste la compression des images. Sans résultat, ... on va désactiver dans le doute.
+Je teste la compression des images. Sans résultat ... on va désactiver dans le doute.
 Et de toute façon il faudra que les images soient traitées autrement.
 
-Je vois qu'il y a pleins de plugins ! C'est top ! Mais j'ai l'impression que Hugo, fait déjà beaucoup de choses.
+Je vois qu'il y a plein de plugins ! C'est top ! Mais j'ai l'impression que Hugo, fait déjà beaucoup de choses.
+
+On peut également préciser un domaine perso, on peut l'acheter ou utiliser un domaine gratuit, mais flemme.
 
 ## Points positifs et négatifs
 
--
+Bien, après une bonne nuit de sommeil, quelques points que j'ai aimés :
+
+- Ce n’est pas compliqué et la doc est bien faite ! Les petites vidéos c'est sympa.
+- Une volonté de bien faire, les thèmes ont tous des exemples.
+- Rapide et simple, en 15 minutes on a déjà un résultat !
+- On sent la puissance !
+- GIT !
+
+Mais il y a quand même quelques points négatifs
+
+- Quand il y a une erreur de syntaxe, le serveur de dev se coupe.
+- Le traitement des images inconsistant.
+- La modification du thème compliquée.
 
 ## Résumé
 
-Résumons cette experience !
+Résumons cette expérience !
+
+C'est vraiment agréable, alors ce n'est pas pour tout le monde, mais c'est parfait pour un blog technique.
+Netlify c'est un bonheur à utiliser, Hugo c'est de la balle !
