@@ -1,7 +1,7 @@
-baseURL = "https://brunotech.netlify.app"
+baseURL = "https://brunoacademie.netlify.app"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "Bruno Tech'"
+title = "Bruno Academie'"
 theme = "hermit"
 enableGitInfo = true
 pygmentsCodefences  = true

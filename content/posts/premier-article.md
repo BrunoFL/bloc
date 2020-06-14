@@ -1,7 +1,7 @@
 ---
 title: "Mon premier blog Jamstack avec Hugo !"
 date: 2020-06-12T19:16:33+02:00
-lastmod: 2020-06-13
+lastmod: 2020-06-14
 draft: false
 tags: 
 - Hugo
@@ -69,7 +69,7 @@ Et ça marche !!!
 
 Bon y a pas le thème, alors qu'il est disponible avec le serveur de dev ...
 Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai une (très) vague idée de ce que ça veut dire.
-J'édite le ***base url*** dans la config, en définissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est temporaire (tu sais ce que veux dire temporaire :wink:) !
+J'édite le ***base url*** dans la config, en définissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est temporaire (il a changé :wink:) !
 
 Et je commit-push !
 
