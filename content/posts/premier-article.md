@@ -1,6 +1,6 @@
 ---
 title: "Mon premier blog Jamstack avec Hugo !"
-date: 2020-06-12
+date: 2020-06-12T19:16:33+02:00
 lastmod: 2020-06-13
 draft: false
 tags: 

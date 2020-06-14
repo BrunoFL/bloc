@@ -1,6 +1,6 @@
 ---
 title: "Modification du thème"
-date: 2020-06-13
+date: 2020-06-13T21:11:00+0200
 lastmod: 2020-06-13
 draft: false
 tags: 
