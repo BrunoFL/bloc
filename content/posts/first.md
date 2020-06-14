@@ -79,7 +79,15 @@ Yeah ! Je m'amuse à ajouter quelques images. Je mets des liens directs, mais il
 
 Je commence à corriger des fautes, j'ai écrit comme un sagouin !
 
-J'en profite pour mettre à jour le [à propos]({{< ref "/me.md" >}}) et découvrir un peu plus Hugo.
+J'en profite pour mettre à jour le [à propos]({{< ref "/about.md" >}}) et découvrir un peu plus Hugo.
+
+- $theme: #b48ead;
+- $text: #e5e9f0;
+- $light-grey: #2e3440;
+- $dark-grey: #3b4252;
+- $highlight-grey: #434c5e;
+- $midnightblue: #4c566a;
+
 
 - Les liens internes
 - Les figures

@@ -1,12 +1,12 @@
 baseURL = "https://brunotech.netlify.app"
-languageCode = "fr-fr"
+languageCode = "fr"
 defaultContentLanguage = "fr"
 title = "Bruno Tech'"
 theme = "hermit"
 enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "MIT" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -17,7 +17,7 @@ googleAnalytics = "UA-169315981-1"
   name = "Bruno FL"
 
 [blackfriday]
-  hrefTargetBlank = true
+  # hrefTargetBlank = true
   # noreferrerLinks = true
   # nofollowLinks = true
 
@@ -26,10 +26,13 @@ googleAnalytics = "UA-169315981-1"
   category = "categories"
 
 [params]
-  dateform        = "2 Jan 2006"
-  dateformShort   = "2 January"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
+  namePreview = "Les derniers articles"
+  numberArticlesPreview = 3
 
   # Metadata mostly used in document's head
   # description = ""
@@ -49,7 +52,7 @@ googleAnalytics = "UA-169315981-1"
   relatedPosts = true  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
-
+  
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
 
@@ -67,10 +70,10 @@ googleAnalytics = "UA-169315981-1"
 
   [[menu.main]]
     name = "Articles"
-    url = "articles/"
+    url = "posts/"
     weight = 1
 
   [[menu.main]]
     name = "Moi"
-    url = "me/"
+    url = "about/"
     weight = 2

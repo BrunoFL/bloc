@@ -1,7 +1,7 @@
 ---
 title: "A propos de moi et de ce blog"
-date: 2020-06-12T19:16:33+02:00
-lastmod: 2020-06-12T23:20:00+02:00
+date: 2020-06-12
+lastmod: 2020-06-12
 ---
 
 Ce site est un blog, plutôt technique, et je parle de tout plein de choses (enfin c'est l'objectif) !
