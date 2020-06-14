@@ -156,7 +156,7 @@ Mais il y a quand même quelques points négatifs
 - La modification du thème compliquée à première vue.
 - Des fonctionnalités qui disparaissent ??? Les tags ne fonctionnent plus, ni la redirection vers d'autres articles.
 
-Il va falloir passer du temps sur le [thème]({{< ref "/posts/theme.md" >}}) !
+Il va falloir passer du temps sur le [thème]({{< ref "/posts/modification-du-theme.md" >}}) !
 
 ## Résumé
 
