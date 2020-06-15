@@ -1,7 +1,7 @@
 ---
 title: "Modification du thème"
 date: 2020-06-13T21:11:00+0200
-lastmod: 2020-06-13
+lastmod: 2020-06-15
 draft: false
 tags: 
 - Hugo
@@ -21,7 +21,7 @@ toc: true
 description: "Modification du thème"
 ---
 
-Bon ce thème est sympa, mais je voudrais le personnaliser et ajouter des fonctionnalités.
+Bon ce [thème](https://github.com/Track3/hermit) est sympa, mais je voudrais le personnaliser et ajouter des fonctionnalités.
 
 ## Modification des couleurs
 
