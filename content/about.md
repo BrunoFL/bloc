@@ -8,6 +8,7 @@ Ce site est un blog, plutôt technique, où je parle de tout plein de choses (en
 Il fonctionne avec [Hugo](https://gohugo.io/), c'est un outil pour générer facilement des sites web statiques.
 Il est hébergé par [Netlify](https://www.netlify.com/) qui s'occupe de la compilation, du déploiement et tout ça ...
 Le tout totalement gratuitement :+1: !
+(Si tu vois un carré c'est que ton navigateur ne lis pas les emojis, Chromium sur linux ?)
 
 Avec chaque article :
 - Un sommaire est affichable pour faciliter la navigation
