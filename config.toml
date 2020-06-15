@@ -1,7 +1,7 @@
 baseURL = "https://brunoacademie.netlify.app"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "Bruno Academie'"
+title = "Bruno Academie"
 theme = "hermit"
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -39,7 +39,7 @@ googleAnalytics = "UA-169315981-1"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Mon petit blog où je raconte des trucs"
+  homeSubtitle = "Mon petit blog où je testetes et raconte des trucs"
   footerCopyright = ' &#183; <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>'
   # bgImg = ""  # Homepage background-image URL
 
