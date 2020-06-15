@@ -7,7 +7,7 @@ lastmod: 2020-06-15
 Ce site est un blog, plutôt technique, où je parle de tout plein de choses (enfin c'est l'objectif) !
 Il fonctionne avec [Hugo](https://gohugo.io/), c'est un outil pour générer facilement des sites web statiques.
 Il est hébergé par [Netlify](https://www.netlify.com/) qui s'occupe de la compilation, du déploiement et tout ça ...
-Le tout totalement gratuitement 👍 !
+Le tout totalement gratuitement :thumbsup: !
 
 Avec chaque article :
 - Un sommaire est affichable pour faciliter la navigation
