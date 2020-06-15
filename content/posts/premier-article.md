@@ -38,7 +38,7 @@ Tout est géré par l'[hébérgeur](https://www.netlify.com/jamstack/).
 
 **Y a plus qu'à tester !**
 
-## Le commencent
+## Le commencement
 
 - J'ai créé un compte sur [Netlify](https://www.netlify.com/), pourquoi eux ? Tout simplement, car ça avait l'air facile (et gratuit) !
 - Une connexion avec github, le choix du dépôt, merde, pas de dépôt ...
