@@ -1,7 +1,7 @@
 ---
-title: "Modification du thème"
+title: "Modification d'un thème Hugo"
 date: 2020-06-13T21:11:00+0200
-lastmod: 2020-06-15
+lastmod: 2020-06-16
 draft: false
 tags: 
 - Hugo
