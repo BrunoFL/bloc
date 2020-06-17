@@ -72,7 +72,7 @@ Il me reste donc Paypal ou Buy Me a Coffee. J'ai choisi le deuxième pour plusie
 - Plus fun dans l'esprit
 - On peut modifier le style
 
-Ce sont 2 arguments assez faibles, mais il fallait faire un choix.
+Ce sont 2 arguments assez faibles, mais il fallait faire un choix :blush:.
 Mais ce n'est évidemment pas gratuit la plateforme prend une commission de 5%.
 
 ## Configuration de Buy Me a Coffee
