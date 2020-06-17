@@ -1,0 +1,41 @@
+.bmc-button img{
+    height: 34px;
+    width: 35px;
+    margin-bottom: 1px;
+    box-shadow: none;
+    border: none;
+    vertical-align: middle;
+}
+
+.bmc-button{
+    padding: 7px 15px 7px 10px;
+    line-height: 35px;
+    height: 51px;
+    text-decoration: none;
+    display: inline-flex;
+    color: #e5e9f0;
+    background-color: #5e81ac;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 7px 15px 7px 10px;
+    font-size: 20px;
+    letter-spacing: -0.08px;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5);
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bmc-button span{
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.bmc-button:hover, .bmc-button:active, .bmc-button:focus {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    text-decoration: none;
+    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    opacity: 0.85;
+    color: #e5e9f0;
+}

@@ -1,13 +1,14 @@
 ---
 title: "Modification d'un thème Hugo"
 date: 2020-06-13T21:11:00+0200
-lastmod: 2020-06-16
+lastmod: 2020-06-17
 draft: false
 tags: 
 - Hugo
 - Jamstack
 - test
 - theme
+- blog
 keywords: 
 - Hugo
 - Jamstack
@@ -17,6 +18,7 @@ keywords:
 - JetBrainsMono
 - favicon
 - icon
+- blog
 toc: true
 description: "Modification du thème"
 ---

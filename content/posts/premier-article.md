@@ -1,16 +1,18 @@
 ---
 title: "Mon premier blog Jamstack avec Hugo !"
 date: 2020-06-12T19:16:33+02:00
-lastmod: 2020-06-15
+lastmod: 2020-06-17
 draft: false
 tags: 
 - Hugo
 - Jamstack
 - test
+- blog
 keywords: 
 - Hugo
 - Jamstack
 - test
+- blog
 toc: true
 description: "Mon aventure avec Hugo et la Jamstack"
 ---

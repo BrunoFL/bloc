@@ -1,7 +1,7 @@
 ---
 title: "Ajouter des commentaires à un blog Hugo grâce à Commento"
 date: 2020-06-15T18:57:00+0200
-lastmod: 2020-06-16
+lastmod: 2020-06-17
 draft: false
 tags: 
 - Hugo
@@ -9,6 +9,7 @@ tags:
 - commentaire
 - theme
 - commento
+- blog
 keywords: 
 - Hugo
 - Jamstack
@@ -17,6 +18,7 @@ keywords:
 - commentaire
 - commento
 - disqus
+- blog
 toc: true
 ---
 

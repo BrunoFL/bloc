@@ -39,6 +39,7 @@ googleAnalytics = "UA-169315981-1"
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
+  customCSS = ["css/bmc.css"]
 
   homeSubtitle = "Mon petit blog où je testetes et raconte des trucs"
   footerCopyright = ' &#183; <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>'
