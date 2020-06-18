@@ -1,6 +1,6 @@
 ---
 title: "Bootstrap abandonne jQuery, c'est important !"
-date: 2020-06-18T18:01:00+0200
+date: 2020-06-18T22:10:00+0200
 lastmod: 2020-06-19
 draft: false
 tags: 
