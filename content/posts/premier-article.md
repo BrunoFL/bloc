@@ -1,40 +1,46 @@
 ---
 title: "Mon premier blog Jamstack avec Hugo !"
-date: 2020-06-12
-lastmod: 2020-06-13
+date: 2020-06-12T19:16:33+02:00
+lastmod: 2020-06-17
 draft: false
 tags: 
 - Hugo
 - Jamstack
 - test
+- blog
 keywords: 
 - Hugo
 - Jamstack
 - test
+- blog
 toc: true
 description: "Mon aventure avec Hugo et la Jamstack"
 ---
 
 Bienvenue !
-Oui, bienvenue sur ce blog, je vais essayer de vous partager 
-au mieux la création d'un blog, orienté technique grâce à la Jamstack.
+Oui, bienvenue sur ce blog, je vais essayer de vous partager au mieux la création d'un blog.
+Il est orienté technique et tourne grâce à la Jamstack et [Hugo](https://gohugo.io/).
 
 **Cet article est construit au fur et à mesure que je découvre la solution.**
 En gros, toi lecteur, tu es en avance sur moi. Et donc si tu lis ceci, c'est que j'ai réussi !
 
+{{< figure src="https://media.giphy.com/media/bBUQPfg7l5kAM/giphy.gif" alt="tardis voyage dans le temps" caption="TU DU DU DUUUU !!!" >}}
+
+
 ## C'est quoi la Jamstack ?
 
-Et bien, j'en ai entendu un petit peu par-ci par-là, en lisant quelques blogs ou articles.
-Donc ce mot m'est arrivé aux oreilles. J'ai donc fait ce que tout bon dev fait, j'ai cherché sur le net
+Ce mot a commencé à arriver à mes oreilles régulièrement, en lisant quelques blogs ou articles.
+J'ai donc fait ce que tout bon dev fait, j'ai cherché sur le net
 (tu as vu, je n'ai pas cité de marque :wink:). Je suis donc tombé sur ce [site](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/),
 en français s'il vous plait ! Où ils expliquent tout plein de choses intéressantes !
 
+Et en gros, tu écris ton article en MD (coool :smile:), c'est compilé par une CI et diffusé !
+Pas de soucis de sécu, de déploiement, de dev, de support ... Le pied !
+Tout est géré par l'[hébérgeur](https://www.netlify.com/jamstack/).
+
 **Y a plus qu'à tester !**
 
-Et en gros, tu écris ton article en MD (coool :smile:), c'est compilé par une CI et diffusé !
-Pas de soucis de sécu, de deploiement, de dev ... Le pied !
-
-## Le commencent
+## Le commencement
 
 - J'ai créé un compte sur [Netlify](https://www.netlify.com/), pourquoi eux ? Tout simplement, car ça avait l'air facile (et gratuit) !
 - Une connexion avec github, le choix du dépôt, merde, pas de dépôt ...
@@ -69,13 +75,14 @@ Et ça marche !!!
 
 Bon y a pas le thème, alors qu'il est disponible avec le serveur de dev ...
 Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai une (très) vague idée de ce que ça veut dire.
-J'édite le ***base url*** dans la config, en définissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est temporaire (tu sais ce que veux dire temporaire :wink:) !
+J'édite le ***base url*** dans la config, en définissant un nom "https://brunotech.netlify.app/", faut pas me juger, c'est temporaire (il a changé :wink:) !
 
 Et je commit-push !
 
-{{< figure src="https://media.giphy.com/media/iJgoGwkqb1mmH1mES3/giphy.gif" alt="animal heureux" caption="il manque un truc ..." >}}
+{{< figure src="https://media.giphy.com/media/iJgoGwkqb1mmH1mES3/giphy.gif" alt="animal heureux" caption="et c'est bon !!!" >}}
 
-Yeah ! Je m'amuse à ajouter quelques images. Je commence par des liens directs, puis des images locales meme s'il y a moyen de faire [mieux](https://docs.netlify.com/large-media/overview/#large-media-docs) mais flemme pour l'instant.
+Yeah ! Je m'amuse à ajouter quelques images. Je commence par des liens directs, puis des images locales en les mettant dans le dossier `/static`.
+Il y a moyen de faire [mieux](https://docs.netlify.com/large-media/overview/#large-media-docs) mais flemme pour l'instant.
 
 Je commence à corriger des fautes, j'ai écrit comme un sagouin !
 
@@ -90,14 +97,14 @@ J'en profite pour mettre à jour le [à propos]({{< ref "/about.md" >}}) et déc
 - Le support multilingue
 - La recherche
 
-Bon, je ne comprends pas tout, mais je ne cherche pas vraiment non plus à maitriser.
+Bon, je ne comprends pas tout, mais je ne cherche pas vraiment non plus à maitriser. L'idée c'est de découvrir !
 Mais je sens que c'est hyper puissant !
 
-Pareil, il y a beaucoup de thèmes, j'en ai testé quelques-uns Hermit, Fuji, hello-friend, Dimension, Coder, il y a vraiment beaucoup de variété.
+Autre chose, il y a beaucoup de thèmes, j'en ai testé quelques-uns Hermit, Fuji, hello-friend, Dimension, Coder, il y a vraiment beaucoup de variété.
 
 ## Un peu de config chez Netlify !
 
-Bien, j'ai fait le tour rapide des fonctionnalités ! Maintenant, je vais tester des choses du côté de l'hébergement !
+Bien, j'ai fait un tour rapide des fonctionnalités ! Maintenant, je vais tester des choses du côté de l'hébergement !
 
 Pour commencer, Netlify met 39 secondes pour faire une installation propre complète. Avec un temps de build dérisoire !
 
@@ -129,9 +136,9 @@ Ensuite, Google donne une super note !
 
 {{< figure src="/images/2.png" alt="Capture du résultat de rapidité" caption="Super résultat !" class="big" >}}
 
-La version mobile est vraiment bien !
+La version mobile est vraiment sympa à utiliser !
 
-Netlify propose une option ***Asset optimization***, mais ça ne m'a pas l'air utile, le CSS et le JS étant minifié.
+Netlify propose une option ***Asset optimization***, mais ça ne m'a pas l'air d'être utile, le CSS et le JS étant minifié.
 Je teste la compression des images. Sans résultat ... on va désactiver dans le doute.
 Et de toute façon il faudra que les images soient traitées autrement.
 
@@ -154,7 +161,7 @@ Mais il y a quand même quelques points négatifs
 - Quand il y a une erreur de syntaxe, le serveur de dev se coupe parfois.
 - Manque de documentation pour la gestion des dossiers, où mettre les images par exemple.
 - La modification du thème compliquée à première vue.
-- Des fonctionnalités qui disparaissent ??? Les tags ne fonctionnent plus, ni la redirection vers d'autres articles.
+- Des fonctionnalités qui disparaissent avec le serveur de dev. Les tags ne fonctionnent plus, ni la redirection vers d'autres articles ou le sommaire.
 
 Il va falloir passer du temps sur le [thème]({{< ref "/posts/modification-du-theme.md" >}}) !
 

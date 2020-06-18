@@ -1,7 +1,7 @@
-baseURL = "https://brunotech.netlify.app"
+baseURL = "https://brunoacademie.netlify.app"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "Bruno Tech'"
+title = "Bruno Academie"
 theme = "hermit"
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -10,6 +10,7 @@ pygmentsUseClasses  = true
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "MIT" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+enableRobotsTXT = true
 googleAnalytics = "UA-169315981-1"
 # disqusShortname = "yourdiscussshortname"
 
@@ -38,8 +39,9 @@ googleAnalytics = "UA-169315981-1"
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
+  customCSS = ["css/bmc.css", "css/commento.css"]
 
-  homeSubtitle = "Mon petit blog où je raconte des trucs"
+  homeSubtitle = "Mon petit blog où je testetes et raconte des trucs"
   footerCopyright = ' &#183; <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>'
   # bgImg = ""  # Homepage background-image URL
 

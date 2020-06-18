@@ -1,23 +1,29 @@
 ---
-title: "Modification du thème"
-date: 2020-06-13
-lastmod: 2020-06-13
+title: "Modification d'un thème Hugo"
+date: 2020-06-13T21:11:00+0200
+lastmod: 2020-06-17
 draft: false
 tags: 
 - Hugo
 - Jamstack
 - test
 - theme
+- blog
 keywords: 
 - Hugo
 - Jamstack
 - test
 - theme
+- font
+- JetBrainsMono
+- favicon
+- icon
+- blog
 toc: true
 description: "Modification du thème"
 ---
 
-Bon ce thème est sympa, mais je voudrais le personnaliser et ajouter des fonctionnalités.
+Bon ce [thème](https://github.com/Track3/hermit) est sympa, mais je voudrais le personnaliser et ajouter des fonctionnalités.
 
 ## Modification des couleurs
 
@@ -151,11 +157,60 @@ Et je modifie la ligne en faisant directement un copié-collé, c'est juste ce q
 {{< figure src="/images/date2.png" alt="Date en français" caption="Date en français" >}}
 
 Parfait ! :blush:
+
+J'en ai profité pour changer les dates dans les métadonnées en bas de chaque article. Ainsi que tout en haut de chaque article, juste avant le titre.
+
+## Changement de la font
+
+La police utilisée pour les bouts de code est pas mal. Mais celle que j'utilise dans tous mes IDE est [JetBrainsMono](https://www.jetbrains.com/fr-fr/lp/mono/).
+Je l'apprécie beaucoup et elle est particulièrement adaptée au code.
+Je la mets donc partout et en plus elle est sous licence en [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+Que demander de plus ? :smile:
+
+- Je télécharge l'archive sur le site
+- J'extrais la police dans `/static/fonts`
+- J'importe la police et je l'applique
+
+```css
+@font-face {
+  font-family: "JetBrainsMono";
+  font-style: normal;
+  src: url(/fonts/JetBrainsMono-Regular.woff2?#iefix) format('woff2'), url(/fonts/JetBrainsMono-Regular.woff) format('woff');
+}
+
+$fonts: "Trebuchet MS", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$code-fonts: "JetBrainsMono", Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
+```
+
+Et voilà ! Le bout de code juste au-dessus utilise normalement JetBrainsMono !
+ 
+
+## Modification de l'icône
+
+Bon, je rappelle que je ne suis pas un artiste. Je ressors ma doc, je vois un [lien](https://realfavicongenerator.net/) pour générer les icônes.
+
+Je sors donc mon paint.net, lance une image en 260x260, je mets le même fond que le thème et je mets un B avec la font `JetBrainsMono`.
+Je vous ai dit que j'adorais cette font ?
+
+Ensuite :
+- J'exporte mon fichier
+- Je l'importe avec le site
+- Je clique sur oui partout
+- Je télécharge l'archive
+- Et je copie tous les fichiers dans `/static`
+
+Et voilà, facile ! :+1: 
+
 ## Conclusion
 
-Et bien, c'est plus facile que ce que je pensais. La syntaxe est un peu particulière, ou du moins je ne suis pas habitué.
+Et bien, c'est plus facile que ce que je pensais !
 
-Mais c'est plutôt facile en tâtonnant et modifiant des bouts de composants, le serveur de dev affichant directement le resultat.
+Toutes les modifications sur le style sont simplissimes.
+Sur les parties de template d'Hugo, la syntaxe est un peu particulière, ou du moins, je ne suis pas habitué.
+Mais on se débrouille avec la documentation et en testant.
+
+Mais c'est plutôt facile en tâtonnant et modifiant des bouts de composants, le serveur de dev affichant directement le résultat.
 Avec des erreurs à la compilation explicite. La documentation aide beaucoup, elle est très bien faite !
 Il est possible que je modifie d'autres choses à l'avenir.
 
