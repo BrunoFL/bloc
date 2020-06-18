@@ -1,0 +1,8 @@
+.commento-card, #commento-textarea-super-container-root, #commento-logged-container {
+    background-color: #d8dee9
+}
+
+#commento-markdown-help-root pre {
+    padding: 0;
+    background: none;
+}
