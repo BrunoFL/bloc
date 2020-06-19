@@ -1,19 +1,24 @@
-# blog
+# Blog Bruno academie
 
-## Update theme
-You can update a theme to the latest version by executing the following command in the root directory of your project:
+- Générateur : `gohugo.io/`
+- Theme : `https://github.com/Track3/hermit.git`
 
-git submodule update --rebase --remote
+## Mise à jour des themes
 
-## emojis
+`git submodule update --rebase --remote`
 
-https://www.webfx.com/tools/emoji-cheat-sheet/
+## Links
 
-## youtube, tweeter, instagram, figures, ...
+- emojis : `https://www.webfx.com/tools/emoji-cheat-sheet/`
+- intégration : `https://gohugo.io/content-management/shortcodes/`
 
-https://gohugo.io/content-management/shortcodes/
+## Theme component
+
+- gallerie : `https://github.com/Schnouki/hugo-baguetteBox`
+- recherche : `https://github.com/kaushalmodi/hugo-search-fuse-js`
+- notice : `https://github.com/martignoni/hugo-notice`
 
 ## Idées articles
 
 - université vs ecole d'ingenieurs
-- bootstrap 5 sans jquery avec Hugo : https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/
+- pagination rfc7233

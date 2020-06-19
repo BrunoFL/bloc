@@ -117,6 +117,6 @@ Si en plus cela permet à ces brillants développeurs de se concentrer sur des p
 
 Je vous invite à aller voir la [news](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/) pour toutes les informations :wink:.
 
-Si vous voulez donner votre avis ou raconter vos expériences, j'ai hâte de vous lire !
+Si vous voulez donner votre avis ou raconter vos expériences les commentaires sont ouverts, j'ai hâte de vous lire !
 
 Merci :heart:, bisou.
