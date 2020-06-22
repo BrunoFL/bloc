@@ -14,7 +14,6 @@ keywords:
 - test
 - blog
 toc: true
-description: "Mon aventure avec Hugo et la Jamstack"
 ---
 
 Bienvenue !

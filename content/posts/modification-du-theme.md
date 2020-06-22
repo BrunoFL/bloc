@@ -20,7 +20,6 @@ keywords:
 - icon
 - blog
 toc: true
-description: "Modification du thème"
 ---
 
 Bon ce [thème](https://github.com/Track3/hermit) est sympa, mais je voudrais le personnaliser et ajouter des fonctionnalités.
