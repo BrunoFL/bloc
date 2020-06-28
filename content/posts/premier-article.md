@@ -70,7 +70,7 @@ J'ajoute dans ***build command*** `Hugo`, ça parait louche ... Et comme je suis
 
 Et ça marche !!!
 
-{{< figure src="/images/1.png" alt="page sans css" caption="il manque un truc ..." >}}
+{{< figure src="/images/first/1.png" alt="page sans css" caption="il manque un truc ..." >}}
 
 Bon y a pas le thème, alors qu'il est disponible avec le serveur de dev ...
 Y a des erreurs de cross-origin dans la console et comme la plupart des gens j'ai une (très) vague idée de ce que ça veut dire.
@@ -133,7 +133,7 @@ Pour commencer, Netlify met 39 secondes pour faire une installation propre compl
 
 Ensuite, Google donne une super note !
 
-{{< figure src="/images/2.png" alt="Capture du résultat de rapidité" caption="Super résultat !" class="big" >}}
+{{< figure src="/images/first/2.png" alt="Capture du résultat de rapidité" caption="Super résultat !" class="big" >}}
 
 La version mobile est vraiment sympa à utiliser !
 

@@ -55,14 +55,14 @@ En revanche, il y quelques petites choses à faire :
 - On met la carte bleue, 5$ par mois
 - On commence par la configuration générale, c'est réduit et c'est très bien comme ça.
 
-{{< figure src="/images/config-commento.png" alt="configuration générale de Commento" caption="configuration générale" >}}
+{{< figure src="/images/commento/config-commento.png" alt="configuration générale de Commento" caption="configuration générale" >}}
 
 J'autorise les commentaires anonymes, devoir se logger pour écrire un "*merci bisou*", c'est non, trop contraignant !
 Je pourrais toujours changer à l'avenir si besoin.
 
 - Et enfin la configuration de la modération
 
-{{< figure src="/images/config-commento2.png" alt="configuration de la modération de Commento" caption="configuration de la modération" >}}
+{{< figure src="/images/commento/config-commento2.png" alt="configuration de la modération de Commento" caption="configuration de la modération" >}}
 
 Voilà, en 3 minutes c'est fait et ça me convient parfaitement. Et c'est tout pour Commento. :blush:
 
@@ -80,12 +80,12 @@ Et je remplace par les 2 balises, facile. :+1:
 
 **Y a plus qu'à tester !**
 
-{{< figure src="/images/commento-error.png" alt="erreur de Commento" caption="Ha !" >}}
+{{< figure src="/images/commento/commento-error.png" alt="erreur de Commento" caption="Ha !" >}}
 
 On ne dirait pas, mais c'est bon signe. Il est allé chercher le script, mais comme je suis sur le serveur de dev l'adresse ne correspond pas.
 Il faut tester en prod maintenant !
 
-{{< figure src="/images/commento.png" alt="commentaires" caption="il semblerait que ça fonctionne" >}}
+{{< figure src="/images/commento/commento.png" alt="commentaires" caption="il semblerait que ça fonctionne" >}}
 
 Super ! Comme on peut le voir, les commentaires sont disponibles tout en bas de la page juste après liens vers les autres articles.
 

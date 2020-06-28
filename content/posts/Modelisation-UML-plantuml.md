@@ -31,7 +31,7 @@ Moi, ceux que j'utilise le plus :
 
 Il sait globalement créer tous les diagrammes UML. Mais il ne se limite pas à UML, en plus il sait faire :
 
-{{< figure src="/images/uml2.png" alt="mindmap UML" caption="mindmap de qualité" class="right" >}}
+{{< figure src="/images/uml/uml2.png" alt="mindmap UML" caption="mindmap de qualité" class="right" >}}
 
 - Maquette d'interface graphique
 - Diagrammes de Gantt 
@@ -62,7 +62,7 @@ App <-- Gateway: utilisateur
 
 Bon forcement, il y a une syntaxe à respecter, mais on obtient en 2 minutes un schéma clair et efficace :
 
-{{< figure src="/images/uml1.png" alt="capture schéma de séquence UML" caption="c'est vraiment très intéressant" >}}
+{{< figure src="/images/uml/uml1.png" alt="capture schéma de séquence UML" caption="c'est vraiment très intéressant" >}}
 
 Facile :+1: ! 
 

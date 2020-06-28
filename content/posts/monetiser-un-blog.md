@@ -87,7 +87,7 @@ Et je ne vois pas ce que je pourrais offrir. :confused:
 
 - Ensuite il faut remplir sa page personnelle, la bio, le lien, une description et quelques messages
 
-{{< figure src="/images/bmc-emoji.png" alt="capture buy me a coffee emoji" caption="on peut choisir ce qui est offert" >}}
+{{< figure src="/images/bmc/bmc-emoji.png" alt="capture buy me a coffee emoji" caption="on peut choisir ce qui est offert" >}}
 
 On peut également choisir le montant du don, entre 1 et 5 euros.
 J'ai choisi 3€, car je trouve que 4€ et 5€ c'est trop et qu'ils recommandent 3€ minimum pour limiter l'effet des frais.
@@ -99,7 +99,7 @@ Il y a 2 possibilités un widget ou un bouton.
 
 Le widget est assez sympa, il se place dans le coin inférieur gauche ou droit de la page et affiche un message lorsque le visiteur arrive en bas.
 
-{{< figure src="/images/bmc1.png" alt="widget buy me a coffee" caption="super cool non ?" >}}
+{{< figure src="/images/bmc/bmc1.png" alt="widget buy me a coffee" caption="super cool non ?" >}}
 
 Mais 2 problèmes apparaissent :
 
@@ -148,7 +148,7 @@ Je le place entre la barre verticale et le footer avec les métadonnées.
 
 Et voilà le résultat final !
 
-{{< figure src="/images/bmc2.png" alt="button buy me a coffee" caption="ça rend bien non ?" >}}
+{{< figure src="/images/bmc/bmc2.png" alt="button buy me a coffee" caption="ça rend bien non ?" >}}
 
 Facile :+1:.
 

@@ -2,7 +2,7 @@
 title: "Pourquoi JavaScript déclenche autant de haine ?"
 date: 2020-06-28T00:19:00+0200
 lastmod: 2020-06-28
-draft: true
+draft: false
 tags: 
 - dev
 - JavaScript
@@ -16,9 +16,15 @@ keywords:
 toc: true
 ---
 
-JavaScript est détesté, c'est un fait, c'est comme ça. Moi j'oscille entre haine et amour.
-Dans cet article, je vais essayer de dire pourquoi il y a autant de désamour sur ce langage.
-Avec des exemples qui me sont arrivés et quelques idées.
+Dans un [dernier]({{< ref "/posts/news/bootstrap-abandonne-jqeury.md" >}}) article sur Bootstrap et jQuery, il y a eu un commentaire :
+
+{{< figure src="/images/js/bullshit-js.png" alt="commentaire jquery" caption="un souci avec JavaScript ?" >}}
+
+JavaScript est détesté, c'est un fait, c'est comme ça. Et pour plein de raisons, souvent légitimes.
+Dans cet article, je vais essayer d'expliquer pourquoi il y a autant de désamour pour ce langage.
+Avec des exemples qui me sont arrivés et quelques idées :wink:.
+
+Je chercherai peut-être un jour dans un autre article pourquoi il est tant aimé ?
 
 ## Le nom déjà
 
@@ -34,8 +40,8 @@ On commence mal.
 
 ## Utilisation, le nombre fait la force
 
-Bon ensuite, si on regarde l'[utilisation](https://insights.stackoverflow.com/survey/2020#technology) d'après stackoverflow, JS est utilisé par tout le monde.
-*Il doit donc plaire à tout le monde ?*
+Bon ensuite, si on regarde l'[utilisation](https://insights.stackoverflow.com/survey/2020#technology) d'après stackoverflow, JS est utilisé, en gros, par tout le monde.
+Si on l'utile c'est qu'on l'aime ?
 
 {{< figure src="https://media.giphy.com/media/J0WtGU7W9knOo/giphy.gif" alt="gif haha non" caption="Haha, non !" >}}
 
@@ -44,14 +50,13 @@ Donc forcément si plein de gens l'utilisent; plein de gens le détestent. Bah o
 En plus, c'est le seul langage disponible sur une page web. Donc on oblige des gens à l'utiliser.
 En général, quand on oblige un truc ça passe mal. :wink:
 
-
 {{< notice >}}
-Ouais, mais avec Kotlin, tu peux faire du transtypage vers JavaScript !
+Ouais, mais avec Kotlin, tu peux faire du transcompilage vers JavaScript !
 {{< /notice >}}
 
-Alors tu as tout à fait raison mise en forme me servant à effectuer un pseudo dialogue !
+Alors, tu as tout à fait raison mise en forme me servant à effectuer un pseudo dialogue !
 Mais je ne suis pas sûr que ce soit beaucoup utilisé. 
-(Si tu l'utilise, j'ai hate d'avoir ton avis !)
+(Si tu l'utilises, j'ai hâte d'avoir ton avis !)
 
 Et j'ai personnellement du mal avec le [transcompilage](https://fr.wikipedia.org/wiki/Compilateur_source_%C3%A0_source) et les surcouches.
 Tu ajoutes un niveau supplémentaire d'apprentissage, de bugs, de dette technique ...
@@ -86,7 +91,7 @@ Ceci n'est que quelques exemples. La première chose à faire est de ne pas util
 Le problème c'est que ce n'est pas intuitif. On n'obtient pas ce qu'on s'attendait à avoir.
 
 Mais ces bizarreries sont parfois problématiques et impliquent de tester les types.
-Là on rentre dans l'avis personnel, mais un typage faible et dynamique n'est pas pratique et pose plus de problèmes qu'il en resoud.
+Là on rentre dans l'avis personnel, mais un typage faible et dynamique n'est pas pratique et pose plus de problèmes qu'il en résout.
 
 Ha et comme c'est un langage interprété et non compilé on voit les erreurs qu'à la compilation, sinon c'est pas drôle :blush:.
 
@@ -119,7 +124,7 @@ Ouais mais maintenant on peut faire des classes !
 Ouais, mais il a fallu ECMAScript 2015, et en plus c'est juste une autre façon d'écrire la même chose qu'en prototype !
 Donc ça ne change rien.
 
-Mais surtout ce qu'il manque à tous les développeurs Objets ce sont les sacrosaintes **Interfaces** :heart::heart::heart:.
+Mais surtout ce qu'il manque à tous les développeurs Objets, ce sont les sacrosaintes **Interfaces** :heart::heart::heart:.
 
 Je suis de la team composition dans la guerre Héritage vs Composition, donc je suis mal partit.
 
@@ -130,7 +135,7 @@ Et il y a les comportements qui sont faits de la même façon partout intuitivem
 
 Partout ? Non, JavaScript fait différemment !
 
-C'est principalement ici que je vais présenter des expériences perso .
+C'est principalement ici que je vais présenter des expériences perso.
 
 {{< figure src="https://media.giphy.com/media/wvQIqJyNBOCjK/giphy.gif" alt="gif rage" caption="y a vraiment besoin d'une description ?" >}}
 
@@ -139,7 +144,7 @@ C'est principalement ici que je vais présenter des expériences perso .
 On commence doucement. Imagine, tu as une date, *1 janvier 2020 à minuit*.
 Et que tu la veux à UTC+2 et bien ce n’est pas facile !
 
-Avec JS, l'objet Date est **OBLIGATOIREMENT** localisé avec la navigateur. En France, à UTC+1 en hiver.
+Avec JS, l'objet Date est **OBLIGATOIREMENT** localisé avec le navigateur. En France, à UTC+1 en hiver.
 Donc tu prends ton timestamp (utc), tu ajoutes 2 heures. Et tu as donc ta date en utc+2 ...
 
 Bon bah maintenant tu veux la formater avec le formatter de JS, qui prend obligatoirement l'objet Date.
@@ -228,6 +233,8 @@ J'ai moins cette impression dans le monde Java avec Maven.
 
 Et je n'ai pas parlé des librairies avec des dizaines de dépendances qui font qu'aggraver le problème.
 
+{{< figure src="/images/js/node_modules.jpeg" alt="node_modules profondeur" caption="exagéré ? si peu ..." >}}
+
 ## Conclusion
 
 Bon alors on dit quoi ? Et bien personnellement, je trouve que JS s'est super !
@@ -259,6 +266,3 @@ le manque de tests, le support approximatif ...
 Merci de m'avoir lu (c'était long ...), j'expose ici mon avis et ma (courte) expérience, j'attends les tiennes en commentaire (fais-nous rire :smile:).
 
 Bisou :heart:.
-
-
-

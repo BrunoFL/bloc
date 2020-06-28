@@ -106,7 +106,7 @@ On obtient donc dans le `index.html` :
 
 Et le résultat final :
 
-{{< figure src="/images/accueil.png" alt="capture de l'accueil" caption="Mon accueil avec les articles !" >}}
+{{< figure src="/images/theme/accueil.png" alt="capture de l'accueil" caption="Mon accueil avec les articles !" >}}
 
 Je suis hyper content ! :blush:
 
@@ -114,7 +114,7 @@ Je suis hyper content ! :blush:
 
 Dans la liste des articles, la date associée est en anglais et surtout le format ne me plait pas :
 
-{{< figure src="/images/date.png" alt="Date en anglais" caption="Date en anglais" >}}
+{{< figure src="/images/theme/date.png" alt="Date en anglais" caption="Date en anglais" >}}
 
 Dans la config, on peut configurer le formattage. Mais ce n'est pas le problème.
 
@@ -153,7 +153,7 @@ Et je modifie la ligne en faisant directement un copié-collé, c'est juste ce q
 <span class="post-day">{{ .Date.Day }} {{ index .Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</span>
 ```
 
-{{< figure src="/images/date2.png" alt="Date en français" caption="Date en français" >}}
+{{< figure src="/images/theme/date2.png" alt="Date en français" caption="Date en français" >}}
 
 Parfait ! :blush:
 

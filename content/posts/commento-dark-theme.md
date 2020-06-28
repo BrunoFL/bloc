@@ -25,7 +25,7 @@ toc: true
 
 Si comme moi vous avez intégré commento avec un thème dark vous avez peut-être remarqué quelque chose.
 
-{{< figure src="/images/commento-dark.png" alt="Commento dark theme" caption="Kewaa ???" >}}
+{{< figure src="/images/commento/commento-dark.png" alt="Commento dark theme" caption="Kewaa ???" >}}
 
 **On ne voit rien du tout !!! :angry:**
 
@@ -56,7 +56,7 @@ Puis je me suis dit que ce serait plus joli sur la totalité, en plus les commen
 J'applique le tout à la div qui sert à insérer les commentaires.
 Je mets le tout dans un fichier css, j'ajoute le fichier à ma config.
 
-{{< figure src="/images/commento-dark2.png" alt="Commento dark theme" caption="Mieux !!" >}}
+{{< figure src="/images/commento/commento-dark2.png" alt="Commento dark theme" caption="Mieux !!" >}}
 
 **Et voilà :+1:**
 
