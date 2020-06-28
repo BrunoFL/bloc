@@ -242,10 +242,10 @@ Bon alors on dit quoi ? Et bien personnellement, je trouve que JS s'est super !
 Tu viens de passer 1h à le démonter ...
 {{< /notice >}}
 
-Ouais, mais j'ai fait des centaines de choses avec. Des trucs rigolos, utiles, sympas, fun, à la con, rapidement.
+Ouais, mais j'ai fait des centaines de choses avec. Des trucs rigolos, utiles, sympas, à la con...
 Et surtout c'est le langage que j'utilise tous les jours.
 
-La communauté va vite, y a énormément de choses. 
+La communauté va vite, il y a énormément de choses qui se passe tous les jours.
 Ça a permis à beaucoup de gens de faire beaucoup de choses. Et des choses super !
 Il sert même à piloter des vaisseaux spatiaux ! :blush:
 
@@ -253,16 +253,15 @@ Il sert même à piloter des vaisseaux spatiaux ! :blush:
 
 Bon, il reste des boutons basiques au cas où ... :wink:
 
-Le web a énormément évolué ces 20 dernières années en grande partie grâce aux évolutions de JS et c'est cool.
+Le web a énormément évolué ces 20 dernières années en grande partie grâce aux évolutions de JS et c'est top !
 
 Mais ce n'est pas un langage facile à maitriser avec des comportements étranges. 
-Je ne suis donc pas étonné de voir des solutions comme [TypeScript](https://www.typescriptlang.org/), [flow](https://flow.org/), [Dart](https://dart.dev/).
+Je ne suis donc pas étonné de voir apparaitre des solutions comme [TypeScript](https://www.typescriptlang.org/), [flow](https://flow.org/), [Dart](https://dart.dev/).
 Et les 50 frameworks JavaScript par jour. Amenant leurs propres problèmes :wink:.
 
 Mais je crois que le principal problème de JavaScript est son manque de maturité, 
-il se remarque par le manque d'intégration dans les IDE pour le débogage ou les tests par exemple (IDEA avec Java :heart:),
-le manque de tests, le support approximatif ...
+il se remarque par le manque d'intégration dans les IDE pour le débogage ou les tests par exemple (IDEA avec Java :heart:), le support approximatif ...
 
-Merci de m'avoir lu (c'était long ...), j'expose ici mon avis et ma (courte) expérience, j'attends les tiennes en commentaire (fais-nous rire :smile:).
+Merci de m'avoir lu (c'était long ...), j'expose ici mon avis et ma (petite) expérience, j'attends les tiennes en commentaire (fais-nous rire :smile:).
 
 Bisou :heart:.
