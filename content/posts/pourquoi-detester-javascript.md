@@ -16,7 +16,7 @@ keywords:
 toc: true
 ---
 
-Dans un [dernier]({{< ref "/posts/news/bootstrap-abandonne-jqeury.md" >}}) article sur Bootstrap et jQuery, il y a eu un commentaire :
+Dans un [article]({{< ref "/posts/news/bootstrap-abandonne-jqeury.md" >}}) précédent sur Bootstrap et jQuery, il y a eu un commentaire :
 
 {{< figure src="/images/js/bullshit-js.png" alt="commentaire jquery" caption="un souci avec JavaScript ?" >}}
 
@@ -33,22 +33,22 @@ Bon, ça commence mal, **JavaScript**, **Java + Script**
 - La version script de Java ? **non**
 - Du script codé en Java alors ? **non !**
 - Un langage typé objet au moins ? **non**
-- Il récupère juste le nom pour avoir un nom avec une bonne réputation ? **ouais en gros** (super article sur l'[histoire](https://delicious-insights.com/fr/articles/javascript-n-a-rien-a-voir-avec-java/) de JS :wink:)
+- Il récupère juste le nom pour avoir une bonne réputation ? **ouais en gros** (super article sur l'[histoire](https://delicious-insights.com/fr/articles/javascript-n-a-rien-a-voir-avec-java/) de JS :wink:)
 
 Donc en gros, pour la plupart des développeurs Java, JS c'est l'enfant attardé qui a piqué l'héritage.
-On commence mal.
+On commence mal...
 
 ## Utilisation, le nombre fait la force
 
 Bon ensuite, si on regarde l'[utilisation](https://insights.stackoverflow.com/survey/2020#technology) d'après stackoverflow, JS est utilisé, en gros, par tout le monde.
-Si on l'utile c'est qu'on l'aime ?
+Si on l'utilise, c'est qu'on l'aime ?
 
 {{< figure src="https://media.giphy.com/media/J0WtGU7W9knOo/giphy.gif" alt="gif haha non" caption="Haha, non !" >}}
 
-Donc forcément si plein de gens l'utilisent; plein de gens le détestent. Bah ouais.
-
-En plus, c'est le seul langage disponible sur une page web. Donc on oblige des gens à l'utiliser.
+C'est le seul langage disponible sur une page web. Donc on oblige des gens à l'utiliser.
 En général, quand on oblige un truc ça passe mal. :wink:
+
+Donc forcément si plein de gens l'utilisent; plein de gens le détestent. Bah ouais.
 
 {{< notice >}}
 Ouais, mais avec Kotlin, tu peux faire du transcompilage vers JavaScript !
@@ -67,18 +67,12 @@ C'est ici qu'on rigole (ou pleure).
 JS fait des trucs, les débutants ne comprennent pas pourquoi.
 Et même après, ce n’est pas intuitif.
 
-On commence doucement :
-
 ```JavaScript
 '10' + 2 => '102' // Ok on concatène, logique
 '10' - 2 => 8 // ?
 '10' - '2' => 8 // ???
 '10' + - '2' => '10-2' // Je me barre
-```
 
-Un petit détour par les types :
-
-```javascript
 typeof NaN => "number" // NaN signifie Not a Number
 NaN == NaN => false
 typeof null => "object"
@@ -86,11 +80,13 @@ typeof null => "object"
 null == undefined => true
 ```
 
+JavaScript essaie de faire des trucs même quand ça n'a pas de sens. Du coup forcement il y a des trucs bizarres.
+
 Ceci n'est que quelques exemples. La première chose à faire est de ne pas utiliser `==` mais bien `===` (triple égal).
 Ça évitera bien des problèmes. Et oui, il y a des explications, ce n’est pas le problème.
 Le problème c'est que ce n'est pas intuitif. On n'obtient pas ce qu'on s'attendait à avoir.
 
-Mais ces bizarreries sont parfois problématiques et impliquent de tester les types.
+Et ces bizarreries sont parfois problématiques et impliquent de tester les types.
 Là on rentre dans l'avis personnel, mais un typage faible et dynamique n'est pas pratique et pose plus de problèmes qu'il en résout.
 
 Ha et comme c'est un langage interprété et non compilé on voit les erreurs qu'à la compilation, sinon c'est pas drôle :blush:.
@@ -105,9 +101,9 @@ Plein de concepts sont peu connus ou mal maitrisés, par moi y compris :wink:.
 Pour un débutant, une fois qu'on a compris le fonctionnement des callbacks et de l'asynchrone, il reste plein de choses à voir :
 
 - [Proxy](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Proxy),
-- [Symbol](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Symbol)
-- [Iterateur](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/iterateurs_et_generateurs)
-- [Générateur](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Generator)
+- [Symbol](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Symbol),
+- [Itérateur](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/iterateurs_et_generateurs),
+- [Générateur](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Generator),
 - [Promesse](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise)
 - Surement d'autres que je ne connais pas ?
 
@@ -124,8 +120,7 @@ Ouais mais maintenant on peut faire des classes !
 Ouais, mais il a fallu ECMAScript 2015, et en plus c'est juste une autre façon d'écrire la même chose qu'en prototype !
 Donc ça ne change rien.
 
-Mais surtout ce qu'il manque à tous les développeurs Objets, ce sont les sacrosaintes **Interfaces** :heart::heart::heart:.
-
+Mais surtout ce qu'il manque à tous les développeurs Objets, ce sont les sacrosaintes **Interfaces** (:heart::heart::heart:).
 Je suis de la team composition dans la guerre Héritage vs Composition, donc je suis mal partit.
 
 ## Ils ne font pas comme tout le monde
@@ -166,7 +161,7 @@ Ha et si tu es en offset UTC+1 et bien tu obtiens -60. Non pas 60 ou 1, mais -60
 
 ```javascript
 const date = new Date('August 19, 2020 23:15:30 GMT+07:00');
-console.log(date1.getTimezoneOffset()); // => -60
+console.log(date.getTimezoneOffset()); // => -60
 ```
 
 Bon il y a surement une explication logique, mais pour un langage qui veut être simple et accessible ...
@@ -183,7 +178,7 @@ statut: dead
 statut: sleep
 ```
 
-Simple et efficace, ça respecte le standard, tu t'attends donc à le récupérer comme ça coté JS. Et bien non !
+Simple et efficace, ça respecte le standard, tu t'attends donc à le récupérer comme ça coté JS. Et bien non ! :angry:
 
 D'abord si tu passes par un proxy JS, comme express il va automatiquement le transformer en :
 
@@ -198,9 +193,9 @@ Ensuite, même si tu le reçois en multi ligne, quand tu récupères les headers
 Tu le sens le temps que j'ai passé à chercher d'où venait le problème ?
 
 Pour info, la [documentation](https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html) dit 
-*The field value MAY be preceded by any amount of LWS, though a single SP is **preferred***.
+"*The field value MAY be preceded by any amount of LWS, though a single SP is **preferred***."
 
-En gros, *utilise qu'une seule valeur par ligne c'est mieux* et JS il a dit **non !**
+En gros, "*utilise qu'une seule valeur par ligne c'est mieux*" et JS il a dit **non !**
 
 Des trucs comme ça, c'est régulièrement quand tu fais du JS bas niveau, dans le sens en utilisant les objets de bases, sans librairies ou framework.
  
@@ -209,8 +204,9 @@ Des trucs comme ça, c'est régulièrement quand tu fais du JS bas niveau, dans 
 Je ne sais pas quelle est l'origine de quoi, mais on a vu fleurir plein de formations de "dev web" de quelques semaines à mois.
 Je ne remets pas en compte la qualité de ces formations. Mais en temps aussi réduit, on ne voit pas énormément de choses et principalement du JS.
 
-Donc si on est amené à devoir travailler coté serveur ou embarqué, bref autre part qu'une page web.
+Donc si on est amené à devoir travailler coté serveur, embarqué ou client lourd, bref autre part qu'une page web.
 Et bien faisons du node et importons la page web partout (coucou [electron](https://www.electronjs.org/) :wink:).
+À vrai dire, je trouve ça super ! Un seul code pour tout, le pied !
 
 Et on oublie que JS a des avantages, mais aussi des défauts et qu'un unique outil ne s'utilise pas dans toutes les situations.
 Va poser du carrelage avec un fer à souder, je te regarde.
@@ -227,15 +223,16 @@ Je ne vais pas citer de nom :wink:, mais lorsque je navigue sur les Jira de cert
 En gros, la version JS du client ou du logiciel est faite à moitié.
 Peut-être que cela vient d'une adaptation non voulue et tardive au langage, je ne sais pas.
 
-En plus, on retrouve une quantité énorme de librairies donc beaucoup plus supportées ou non fonctionnelles.
+En plus, on dispose d'une quantité énorme de librairies à tout faire.
+Il y en a donc beaucoup non supportées ou non fonctionnelles.
 Si elle ne marche pas, ce n’est pas grave y en a 10 autres tout aussi jetables.
-J'ai moins cette impression dans le monde Java avec Maven.
+J'ai moins cette impression dans le monde Java.
 
 Et je n'ai pas parlé des librairies avec des dizaines de dépendances qui font qu'aggraver le problème.
 
 {{< figure src="/images/js/node_modules.jpeg" alt="node_modules profondeur" caption="exagéré ? si peu ..." >}}
 
-## Conclusion
+## Conclusion, JS à jeter ?
 
 Bon alors on dit quoi ? Et bien personnellement, je trouve que JS s'est super !
 {{< notice >}}
@@ -245,7 +242,10 @@ Tu viens de passer 1h à le démonter ...
 Ouais, mais j'ai fait des centaines de choses avec. Des trucs rigolos, utiles, sympas, à la con...
 Et surtout c'est le langage que j'utilise tous les jours.
 
-La communauté va vite, il y a énormément de choses qui se passe tous les jours.
+Il est facile à prendre en main, facile à apprendre et à enseigner.
+Pas besoin de compiler, rapidement testable et modifiable, bref c'est cool à utiliser.
+
+En plus, la communauté va vite, il y a énormément de choses qui se passent tous les jours.
 Ça a permis à beaucoup de gens de faire beaucoup de choses. Et des choses super !
 Il sert même à piloter des vaisseaux spatiaux ! :blush:
 
@@ -257,11 +257,15 @@ Le web a énormément évolué ces 20 dernières années en grande partie grâce
 
 Mais ce n'est pas un langage facile à maitriser avec des comportements étranges. 
 Je ne suis donc pas étonné de voir apparaitre des solutions comme [TypeScript](https://www.typescriptlang.org/), [flow](https://flow.org/), [Dart](https://dart.dev/).
-Et les 50 frameworks JavaScript par jour. Amenant leurs propres problèmes :wink:.
+Et les 50 nouveaux frameworks JavaScript par jour. 
+Ces outils veulent apporter sécurité et confiance en cachant les défauts, amenant leurs propres problèmes :wink:.
 
 Mais je crois que le principal problème de JavaScript est son manque de maturité, 
 il se remarque par le manque d'intégration dans les IDE pour le débogage ou les tests par exemple (IDEA avec Java :heart:), le support approximatif ...
 
+Et par chance la maturité se gagne avec l'utilisation et le temps, donc j'ai bon espoir :smile: !
+
 Merci de m'avoir lu (c'était long ...), j'expose ici mon avis et ma (petite) expérience, j'attends les tiennes en commentaire (fais-nous rire :smile:).
 
 Bisou :heart:.
+
