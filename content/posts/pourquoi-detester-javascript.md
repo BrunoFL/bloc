@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi JavaScript déclenche autant de haine ?"
 date: 2020-06-28T00:19:00+0200
-lastmod: 2020-06-28
+lastmod: 2020-06-29
 draft: false
 tags: 
 - dev
@@ -89,7 +89,7 @@ Le problème c'est que ce n'est pas intuitif. On n'obtient pas ce qu'on s'attend
 Et ces bizarreries sont parfois problématiques et impliquent de tester les types.
 Là on rentre dans l'avis personnel, mais un typage faible et dynamique n'est pas pratique et pose plus de problèmes qu'il en résout.
 
-Ha et comme c'est un langage interprété et non compilé on voit les erreurs qu'à la compilation, sinon c'est pas drôle :blush:.
+Ha et comme c'est un langage interprété et non compilé on voit les erreurs qu'à l'éxecution, sinon c'est pas drôle :blush:.
 
 ## La complexité grandissante du langage
 
