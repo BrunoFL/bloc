@@ -21,7 +21,7 @@ keywords:
 toc: true
 ---
 
-Après 1 mois d'utilisation de Commento, il est temps de faire un petit retour !
+Après 1 mois d'utilisation de [Commento](https://commento.io), il est temps de faire un petit retour !
 
 L'affichage des commentaires et très bien gérés, assez joli, facilement paramétrables, y a rien à dire dessus !
 
@@ -29,14 +29,14 @@ Alors y des trucs biens, mais aussi des trucs moins bien ...
 
 ## Le mini résumé
 
-Commento est un service de gestion de commentaire. Facile à mettre en place avec deux balises HTML et simple d'utilisation.
+[Commento](https://commento.io) est un service de gestion de commentaire. Facile à mettre en place avec deux balises HTML et simple d'utilisation.
 En plus, le service est sans pub et sans tracking, mais bien évidement payant 5$ par mois.
 
 J'ai fait quelques articles sur le service :wink:.
 
 ## Le coût
 
-C'est assez clair et bien présenté 5$ par mois ! Le paiement est géré par stripe, c'est un service assez répandu.
+C'est assez clair et bien présenté 5$ par mois ! Le paiement est géré par [stripe](https://stripe.com/fr), c'est un service assez répandu.
 Il gère le paiement uniquement par carte, c'est un tiers de confiance et ça fonctionne bien.
 
 Par contre, comme le paiement est en dollars, il y a un surcout et des fluctuations en fonction des cours de l'euro et du dollar.
