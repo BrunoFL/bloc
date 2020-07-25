@@ -32,8 +32,8 @@ googleAnalytics = "UA-169315981-1"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  namePreview = "Les derniers articles"
-  numberArticlesPreview = 3
+  namePreview = "Les 5 derniers articles"
+  numberArticlesPreview = 5
 
   # Metadata mostly used in document's head
   # description = ""
