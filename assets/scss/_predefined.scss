@@ -19,11 +19,22 @@ $midnightblue: #4c566a;
 $fonts: "Trebuchet MS", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 $code-fonts: "JetBrainsMono", Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
 
-// Code commentaire
-.chroma span.c1 {
+// Code
+.chroma span.c1 { //commentaire
  color: #a3be8c;
 }
-
+.chroma span.o { //accolade
+ color: #bf616a;
+}
+.chroma span.n { // var
+ color: #e5e9f0;
+}
+.chroma span.k { // mot cle
+ color: #88c0d0;
+}
+.chroma span.s { // string
+ color: #ebcb8b;
+}
 // Mixins
 
 @mixin dimmed {
