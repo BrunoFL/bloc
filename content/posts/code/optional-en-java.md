@@ -69,8 +69,7 @@ Sinon, je peux soulever une Exception en fonction du cas.
 {{< figure src="https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif" alt="joie" caption="Joie sur nous !" >}}
 
 Et c'est particulièrement utile dans les cas des Stream !
-
-Et il y a d'autres fonctions à aller tester, je ne vais pas tout faire ! :wink:
+Il y a d'autres fonctions à aller tester, je ne vais pas tout faire ! :wink:
 
 ## Les inconvénients ?
 
