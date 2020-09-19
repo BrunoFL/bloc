@@ -24,3 +24,4 @@
 - pagination rfc7233
 - astuces recherche google
 - la dette technique
+- mutabilité
