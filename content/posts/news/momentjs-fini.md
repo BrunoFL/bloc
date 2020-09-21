@@ -7,7 +7,6 @@ tags:
 - actualité
 - moment
 - js
-- jquery
 keywords: 
 - date
 - moment
