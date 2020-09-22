@@ -1,7 +1,7 @@
 ---
-title: "Moment.js s'est fini !"
+title: "Moment.js c'est fini !"
 date: 2020-09-19T13:10:00+0200
-lastmod: 2020-09-19
+lastmod: 2020-09-22
 draft: false
 tags: 
 - actualité
