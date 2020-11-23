@@ -1,6 +1,6 @@
 ---
 title: "Les développeurs et la politique"
-date: 2020-09-21T21:30:00+0200
+date: 2020-11-23T21:30:00+0200
 lastmod: 2020-11-23
 draft: false
 tags: 
