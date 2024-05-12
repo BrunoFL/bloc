@@ -1,7 +1,7 @@
 ---
-title: "Adapter Commento à un dark thème"
+title: "Règles de confidentialité de Fast Jump"
 date: 2024-05-12T18:01:00+0200
-lastmod: 2020-06-18
+lastmod: 2024-05-12
 draft: false
 ---
 
