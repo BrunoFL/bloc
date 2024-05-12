@@ -1,6 +1,6 @@
 ---
 title: "Règles de confidentialité de Fast Jump"
-date: 2024-05-12T18:01:00+0200
+date: 2024-05-12T17:01:00+0200
 lastmod: 2024-05-12
 draft: false
 toc: true
