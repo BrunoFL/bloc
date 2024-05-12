@@ -75,10 +75,6 @@ TypeScript (Microsoft)
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/p4ht448mr12q4ou40dia.png" alt="BLM TypeScript" >}}
 
-Angular (Google)
-
-{{< tweet 1267985095400382464 >}}
-
 Babel
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/jfu8vuslq77odwqcv2kv.jpg" alt="BLM Babel" >}}

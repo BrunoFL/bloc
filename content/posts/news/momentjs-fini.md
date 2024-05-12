@@ -64,7 +64,7 @@ Pour se donner une idée Vue c'est 20 KB, React 30.
 
 {{< figure src="https://raw.githubusercontent.com/you-dont-need/You-Dont-Need-Momentjs/master/screenshot.png" alt="taille des librairies" caption="Moment vs les concurrents" >}}
 
-Google alerte et commence à conseiller des alternatives {{< tweet 1304676118822174721 >}}
+Google alerte et commence à conseiller des alternatives.
 
 De plus, Moment.js n'est pas compatible, par construction, avec le ["tree-shaking"](https://webpack.js.org/guides/tree-shaking/), la technique d'optimisation des bundlers qui consiste à supprimer les fichiers inutiles.
 Ce qui veut dire que tout est téléchargé puis analysé par le navigateur. Contrairement à [date-fns](https://date-fns.org/) par exemple. :thumbsup:

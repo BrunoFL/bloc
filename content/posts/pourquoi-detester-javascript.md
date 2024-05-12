@@ -249,8 +249,6 @@ En plus, la communauté va vite, il y a énormément de choses qui se passent to
 Ça a permis à beaucoup de gens de faire beaucoup de choses. Et des choses super !
 Il sert même à piloter des vaisseaux spatiaux ! :blush:
 
-{{< tweet 1267227834096861184 >}}
-
 Bon, il reste des boutons basiques au cas où ... :wink:
 
 Le web a énormément évolué ces 20 dernières années en grande partie grâce aux évolutions de JS et c'est top !
